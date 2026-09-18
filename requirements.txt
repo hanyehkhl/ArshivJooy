@@ -1,0 +1,27 @@
+# ArshivJooy — offline semantic archive search
+# Python >= 3.10
+
+# --- Vector store ---
+chromadb>=0.5.23,<0.7.0
+
+# --- Embedding models ---
+torch>=2.2.0,<3.0.0
+transformers>=4.44.0,<5.0.0
+sentence-transformers>=3.0.1,<5.0.0
+huggingface-hub>=0.24.0,<1.0.0
+safetensors>=0.4.3
+
+# --- Document extraction ---
+pypdf>=5.0.0,<6.0.0
+python-docx>=1.1.2,<2.0.0
+
+# --- Images / OCR ---
+pillow>=10.3.0,<12.0.0
+pytesseract>=0.3.13,<0.4.0
+
+# --- UI / CLI ---
+gradio>=4.44.0,<6.0.0
+tqdm>=4.66.0
+
+# --- Misc ---
+numpy>=1.26.0,<3.0.0
